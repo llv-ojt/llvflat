@@ -8,6 +8,10 @@ and open the template in the editor.
     Author     : OJT
 */
 
+* {
+    transition: all 0.5s ease;
+}
+
 img.img-responsive {
     width: 30%;
 }
