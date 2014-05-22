@@ -9,11 +9,20 @@ and open the template in the editor.
 */
 
 * {
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
 }
 
 img.img-responsive {
-    width: 30%;
+    width: 50%;
+}
+
+img.mobile-logo {
+    width: 12%;
+    display: none;
+}
+
+.main-navigation {
+    padding-top: 50px;
 }
 
 a {
@@ -24,8 +33,27 @@ div.navbar-coverphoto {
     
 }
 
+
+@media screen and (max-width: 1199px) {
+    img.img-responsive {
+        width: 30%;
+    }
+    .main-navigation {
+        padding-top: 0px;
+        height: 0px;
+    }
+}
+
 @media screen and (max-width: 979px) {
-    
-    
-    
+    img.desktop-logo {
+        display: none;
+    }
+    img.mobile-logo {
+        display: block;
+        min-width: 80px;
+    }
+    button[type="button"].btn-navbar {
+        padding: 5%px;
+    }
+
 }
