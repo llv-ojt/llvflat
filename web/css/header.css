@@ -15,23 +15,22 @@ and open the template in the editor.
 img.img-responsive {
     width: 60%;
 }
-
 img.mobile-logo {
     width: 12%;
     display: none;
 }
 
+/* The navigation group
+*/
 .main-navigation {
     padding-top: 50px;
 }
+.main-navigation 
 
-a {
-    color: #ff7f00;
+div.heading-hero {
+    background: #000;
 }
 
-div.navbar-coverphoto {
-    
-}
 
 
 @media screen and (max-width: 1199px) {
@@ -54,7 +53,5 @@ div.navbar-coverphoto {
     }
     button[type="button"].btn-navbar {
         padding: 5%px;
-    } 
-    
- 
+    }
 }
