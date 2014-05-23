@@ -25,10 +25,12 @@ img.mobile-logo {
 .main-navigation {
     padding-top: 50px;
 }
-.main-navigation 
 
-div.heading-hero {
-    background: #000;
+/* The heading hero
+*/
+.heading-hero {
+    background-color: #000;
+    box-sizing: border-box;
 }
 
 
@@ -49,9 +51,18 @@ div.heading-hero {
     }
     img.mobile-logo {
         display: block;
-        min-width: 80px;
+        min-width: 200px;
     }
     button[type="button"].btn-navbar {
         padding: 5%px;
+    }
+}
+
+@media screen and (max-width: 562px) {
+    .heading-hero {
+        padding: 20px 5%;
+        font-size: 87.5%;
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
     }
 }

@@ -59,7 +59,7 @@
                     <!-- Logo's here -->
                     <a class="brand col-lg-4" href="#">
                         <!-- Desktop logo --> <img src="web/images/logo.png" class="img-responsive desktop-logo">
-                        <!-- Mobile logo  --> <img src="web/images/logo-mobile.png" class="img-responsive mobile-logo">
+                        <!-- Mobile logo  --> <img src="web/images/logo.png" class="img-responsive mobile-logo">
                     </a>
                     <div class="nav-collapse collapse col-lg-6 main-navigation">
                         <ul class="nav">
