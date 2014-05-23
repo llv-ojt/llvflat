@@ -13,7 +13,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Bootstrap, from Twitter</title>
+        <title>Lalaguna Villas</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
@@ -46,6 +46,8 @@
 
     <body>
 
+        <!-- Header starts from here -->
+
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="navbar-inner">
                 <div class="container">
@@ -54,9 +56,10 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
+                    <!-- Logo's here -->
                     <a class="brand col-lg-4" href="#">
-                        <img src="web/images/logo.png" class="img-responsive desktop-logo">
-                        <img src="web/images/logo-mobile.png" class="img-responsive mobile-logo">
+                        <!-- Desktop logo --> <img src="web/images/logo.png" class="img-responsive desktop-logo">
+                        <!-- Mobile logo  --> <img src="web/images/logo-mobile.png" class="img-responsive mobile-logo">
                     </a>
                     <div class="nav-collapse collapse col-lg-6 main-navigation">
                         <ul class="nav">
@@ -83,15 +86,23 @@
                 </div>
             </div>
         </div>
+        <!-- Header ends here -->
+
+        <!-- Heading hero -->
         <div class="container">
 
             <!-- Main hero unit for a primary marketing message or call to action -->
-            <div class="hero-unit">
+            <div class="hero-unit heading-hero">
                 <h1>Hello, world!</h1>
                 <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
                 <p><a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
                 <br>
             </div>
+        </div>
+        <!-- Heading hero ends here -->
+
+        
+        <div class="container">
 
             <!-- Example row of columns -->
             <div class="row">
@@ -136,6 +147,6 @@
         <script src="web/bootstrap/assets/js/bootstrap-collapse.js"></script>
         <script src="web/bootstrap/assets/js/bootstrap-carousel.js"></script>
         <script src="web/bootstrap/assets/js/bootstrap-typeahead.js"></script>
-
+        <!-- Fine, it's working -->
     </body>
 </html>
