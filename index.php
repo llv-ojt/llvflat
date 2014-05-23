@@ -147,6 +147,8 @@
         <script src="web/bootstrap/assets/js/bootstrap-collapse.js"></script>
         <script src="web/bootstrap/assets/js/bootstrap-carousel.js"></script>
         <script src="web/bootstrap/assets/js/bootstrap-typeahead.js"></script>
-        <!-- Fine, it's working -->
+        
+        <!-- OJT custom scripts -->
+        <script src="web/js/nav-scroll.js"></script>
     </body>
 </html>

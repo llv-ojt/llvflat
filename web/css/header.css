@@ -23,7 +23,7 @@ img.mobile-logo {
 /* The navigation group
 */
 .main-navigation {
-    padding-top: 50px;
+    padding-top: 64px;
 }
 
 /* The heading hero
@@ -37,7 +37,7 @@ img.mobile-logo {
 
 @media screen and (max-width: 1199px) {
     img.img-responsive {
-        width: 30%;
+        width: 20%;
     }
     .main-navigation {
         padding-top: 0px;
