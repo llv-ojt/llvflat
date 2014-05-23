@@ -58,9 +58,12 @@
                         <img src="web/images/logo.png" class="img-responsive desktop-logo">
                         <img src="web/images/logo-mobile.png" class="img-responsive mobile-logo">
                     </a>
-                    <div class="nav-collapse collapse col-lg-4 main-navigation">
+                    <div class="nav-collapse collapse col-lg-6 main-navigation">
                         <ul class="nav">
                             <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#about">Rooms</a></li>
+                            <li><a href="#contact">Resort</a></li>
+                            <li><a href="#attractions">Attractions</a></li>
                             <li><a href="#about">About</a></li>
                             <li><a href="#contact">Contact</a></li>
                             <li class="dropdown">
