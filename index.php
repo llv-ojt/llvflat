@@ -58,8 +58,8 @@
                     </button>
                     <!-- Logo's here -->
                     <a class="brand col-lg-4" href="#">
-                        <!-- Desktop logo --> <img src="web/images/logo.png" class="img-responsive desktop-logo">
-                        <!-- Mobile logo  --> <img src="web/images/logo.png" class="img-responsive mobile-logo">
+                        <!-- Desktop logo --> <img src="web/images/logo.png" class="img-responsive desktop-logo visible-desktop">
+                        <!-- Mobile logo  --> <img src="web/images/logo.png" class="img-responsive mobile-logo visible-phone visible-tablet">
                     </a>
                     <div class="nav-collapse collapse col-lg-6 main-navigation">
                         <ul class="nav">
@@ -93,17 +93,55 @@
 
             <!-- Main hero unit for a primary marketing message or call to action -->
             <div class="hero-unit heading-hero">
-                <h1>Hello, world!</h1>
-                <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-                <p><a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
-                <br>
+                <!-- Sample button
+                    <a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a> -->
+                <div class="pull-right heading-promotions span5 container-fluid text-center visible-desktop">
+                    <div><h3>Get our latest promotions</h3></div>
+                    <form method="">
+                        <table width="100%">
+                            <tr>
+                                <td valign="top" align="right">Name</td>
+                                <td valign="middle" align="center"><input type="text" class="input-xlarge" style="font-size: 100%;" placeholder="Enter name here"></td>
+                            </tr>
+                            <tr>
+                                <td valign="top" align="right">Email</td>
+                                <td valign="middle" align="center"><input type="text" class="input-xlarge" style="font-size: 100%;" placeholder="Email"></td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+                <br><br><br><br><br><br><br>
+                <div class="heading-hero-caption">
+                    The "Best Kept Secret" in the Philippines
+                    <a href="#" class="btn btn-primary btn-large pull-right">Book now</a>
+                </div>
             </div>
         </div>
         <!-- Heading hero ends here -->
 
-        
+        <!-- Promotion => Mobile and Table version -->
         <div class="container">
+            <div class="heading-promotions-mini text-center visible-mobile visible-tablet visible-phone">
+                <div><h3>Get our latest promotions</h3></div>
+                <form action="" method="post">
+                    <table class="" width="100%" cellspacing="0">
+                        <tr>
+                            <td valign="middle" align="center"><input type="text" class="input-xlarge" style="font-size: 100%;" placeholder="Enter name here"></td>
+                        </tr>
+                        <tr>
+                            <td valign="middle" align="center"><input type="text" class="input-xlarge" style="font-size: 100%;" placeholder="Email"></td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                <input type="submit" class="btn btn-primary center-block" value="Email it to me!">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
 
+        <div class="container">
             <!-- Example row of columns -->
             <div class="row">
                 <div class="span4">
@@ -147,8 +185,12 @@
         <script src="web/bootstrap/assets/js/bootstrap-collapse.js"></script>
         <script src="web/bootstrap/assets/js/bootstrap-carousel.js"></script>
         <script src="web/bootstrap/assets/js/bootstrap-typeahead.js"></script>
-        
+<<<<<<< OURS
+
         <!-- OJT custom scripts -->
         <script src="web/js/nav-scroll.js"></script>
+=======
+        <!-- Fine, it's working -->
+>>>>>>> THEIRS
     </body>
 </html>
