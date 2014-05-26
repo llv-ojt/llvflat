@@ -8,6 +8,13 @@ and open the template in the editor.
     Author     : OJT
 */
 
+<<<<<<< HEAD
+=======
+.orange-color
+{
+    color: #f77f00;
+}
+>>>>>>> 6c20103f5adffe4257ff10976a08941696873ae7
 
 .section-header {
     
@@ -22,5 +29,4 @@ and open the template in the editor.
 .section-title-line {
     background: url(../images/line-ff7f00.png) no-repeat left center / cover;
     content: none;
->>>>>>> f191ebf5e562745351e08916397a974603f44f56
 }

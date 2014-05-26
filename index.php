@@ -112,11 +112,17 @@
                                 <td valign="top" align="right">Email</td>
                                 <td valign="middle" align="center"><input type="text" class="input-xlarge" style="font-size: 100%;" placeholder="Email"></td>
                             </tr>
+<<<<<<< HEAD
                             <tr>
                                 <td colspan="2" align="center">
                                     <input type="submit" class="btn btn-primary" value="Email it to me">
                                 </td>
                             </tr>
+=======
+                            <tr><td colspan="2" align="center">
+                                    <input type="submit" class="btn btn-primary" value="Email it to me">
+                                </td></tr>
+>>>>>>> 6c20103f5adffe4257ff10976a08941696873ae7
                         </table>
                     </form>
                 </div>
@@ -144,8 +150,12 @@
                 </form>
             </div>
         </div>
+<<<<<<< HEAD
 
 <!-- Rooms Header            -->
+=======
+            
+>>>>>>> 6c20103f5adffe4257ff10976a08941696873ae7
         <div class="container">
             <div class="row section-header">
                 <div class=" page-header span12" valign="middle">
@@ -201,13 +211,10 @@
         <script src="web/bootstrap/assets/js/bootstrap-collapse.js"></script>
         <script src="web/bootstrap/assets/js/bootstrap-carousel.js"></script>
         <script src="web/bootstrap/assets/js/bootstrap-typeahead.js"></script>
-<<<<<<< OURS
-
+        
         <!-- OJT custom scripts -->
         <script src="web/js/nav-scroll.js"></script>
 
-=======
->>>>>>> THEIRS
         <!-- Fine, it's working -->
     </body>
 </html>
