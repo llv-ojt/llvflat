@@ -120,7 +120,7 @@
                         </table>
                     </form>
                 </div>
-                
+                <br><br><br><br><br><br>
                 <div class="heading-hero-caption" id="caption">
                     <span class="col-lg-7">The "Best Kept Secret" in the Philippines</span>
                     <div class="col-lg-3">
