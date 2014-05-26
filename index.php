@@ -122,8 +122,11 @@
                 </div>
                 <br><br><br><br><br><br><br>
                 <div class="heading-hero-caption" id="caption">
-                    <span class="">The "Best Kept Secret" in the Philippines</span>
-                    <a href="#" class="btn btn-primary btn-large btn-achtung offset3">Book now</a>
+                    <span class="col-lg-7">The "Best Kept Secret" in the Philippines</span>
+                    <div class="col-lg-3">
+                        <a href="#" class="btn btn-primary btn-large btn-achtung">Book now</a>
+                    </div>
+                    <br style="clear:both">
                 </div>
             </div>
 
