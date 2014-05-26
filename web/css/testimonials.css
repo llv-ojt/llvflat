@@ -27,7 +27,7 @@ and open the template in the editor.
 }
 .testimonial-body-message {
     box-sizing: border-box;
-    padding: 5%;
+    padding: 10px 5%;
     text-align: left;
 }
 .testimonial-body-author {

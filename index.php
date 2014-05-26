@@ -148,9 +148,8 @@
             </form>
         </div>
 
-        <!-- Testimonials            -->
-        <div class="container ">
-            <div class="row">
+        <!-- Testimonials -->
+        <div class="container "><div class="row">
                 <div class="span4 testimonial">
                     <!-- Testimonial header -->
                     <div class="row-fluid testimonial-header">
@@ -167,11 +166,40 @@
                         <a href="javascript:;">Read more</a>
                     </div>
                 </div>
-            </div>
-        </div>
-
-
-        <br><br><br>
+                <div class="span4 testimonial">
+                    <!-- Testimonial header -->
+                    <div class="row-fluid testimonial-header">
+                        <div class="col-lg-5 testimonial-header-provider">PROVIDER</div>
+                        <div class="col-lg-5 testimonial-header-rating">RATING</div>
+                    </div>
+                    <!-- Testimonial body -->
+                    <div class="row-fluid testimonial-body">
+                        <div class="row-fluid testimonial-body-message">Minim incurreret instituendarum an proident minim laborum. Aut aut quorum dolor fugiat, eiusmod multos quo iudicem philosophari. Quem quamquam te despicationes non dolor appellat ab tempor. Vidisse dolor sint qui fugiat nam fabulas iis fugiat ingeniis. Eram vidisse excepteur, iis fore admodum doctrina.</div>
+                        <div class="row-fluid testimonial-body-author">Author</div>
+                    </div>
+                    <!-- Testimonial header -->
+                    <div class="row-fluid testimonial-footer">
+                        <a href="javascript:;">Read more</a>
+                    </div>
+                </div>
+                <div class="span4 testimonial">
+                    <!-- Testimonial header -->
+                    <div class="row-fluid testimonial-header">
+                        <div class="col-lg-5 testimonial-header-provider">PROVIDER</div>
+                        <div class="col-lg-5 testimonial-header-rating">RATING</div>
+                    </div>
+                    <!-- Testimonial body -->
+                    <div class="row-fluid testimonial-body">
+                        <div class="row-fluid testimonial-body-message">Minim incurreret instituendarum an proident minim laborum. Aut aut quorum dolor fugiat, eiusmod multos quo iudicem philosophari. Quem quamquam te despicationes non dolor appellat ab tempor. Vidisse dolor sint qui fugiat nam fabulas iis fugiat ingeniis. Eram vidisse excepteur, iis fore admodum doctrina.</div>
+                        <div class="row-fluid testimonial-body-author">Author</div>
+                    </div>
+                    <!-- Testimonial header -->
+                    <div class="row-fluid testimonial-footer">
+                        <a href="javascript:;">Read more</a>
+                    </div>
+                </div>
+        </div></div>
+        
 
         <!--Rooms Content-->
         <div class="container">
