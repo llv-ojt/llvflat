@@ -7,3 +7,27 @@ and open the template in the editor.
     Created on : 05 24, 14, 12:40:41 AM
     Author     : OJT
 */
+
+
+.testimonial {
+    border: 1px solid rgba(0,0,0,0.3);
+    box-sizing: border-box;
+}
+.testimonial-header {
+    
+}
+.testimonial-header-provider {
+    
+}
+.testimonial-header-rating {
+    text-align: right;
+}
+.testimonial-body {
+    
+}
+.testimonial-body-message {
+    
+}
+.testimonial-body-author {
+    
+}
