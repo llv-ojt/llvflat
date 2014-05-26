@@ -114,13 +114,13 @@
                             </tr>
                             <tr>
                                 <td colspan="2" align="center">
-                                    <input type="submit" class="btn btn-primary" value="Email it to me">
+                                    <input type="submit" class="btn btn-primary btn-large" value="Email it to me">
                                 </td>
                             </tr>
                         </table>
                     </form>
                 </div>
-                <br><br><br><br><br><br><br>
+                
                 <div class="heading-hero-caption" id="caption">
                     <span class="col-lg-7">The "Best Kept Secret" in the Philippines</span>
                     <div class="col-lg-3">
