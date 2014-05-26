@@ -26,8 +26,22 @@ and open the template in the editor.
     
 }
 .testimonial-body-message {
-    
+    box-sizing: border-box;
+    padding: 5%;
+    text-align: left;
 }
 .testimonial-body-author {
-    
+    box-sizing: border-box;
+    font-style: italic;
+    padding-right: 10px;
+    text-align: right;
+}
+.testimonial-footer {
+    background-color: rgba(0,0,0,0.3);
+    box-sizing: border-box;
+    padding: 1% 2%;
+    text-align: right;
+}
+.testimonial-footer a {
+    color: #fff;
 }
