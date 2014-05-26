@@ -112,15 +112,11 @@
                                 <td valign="top" align="right">Email</td>
                                 <td valign="middle" align="center"><input type="text" class="input-xlarge" style="font-size: 100%;" placeholder="Email"></td>
                             </tr>
-<<<<<<< HEAD
                             <tr>
-                                <td valign="middle" align="center"><input type="button" value=""></td>
-                            </tr>
-=======
-                            <tr><td colspan="2" align="center">
+                                <td colspan="2" align="center">
                                     <input type="submit" class="btn btn-primary" value="Email it to me">
-                                </td></tr>
->>>>>>> f191ebf5e562745351e08916397a974603f44f56
+                                </td>
+                            </tr>
                         </table>
                     </form>
                 </div>
@@ -148,28 +144,20 @@
                 </form>
             </div>
         </div>
-        
-<<<<<<< HEAD
-        
-        <div class="container">
-            <div class="page-header orange-color">
-                <h1>Rooms</h1>
-            </div>
-=======
-            
+
+<!-- Rooms Header            -->
         <div class="container">
             <div class="row section-header">
-                <div class="span3 section-title" valign="middle">
-                    Rooms
+                <div class=" page-header span12" valign="middle">
+                    <h1>Rooms</h1>
                 </div>
-                <div class="span9 section-title-line"></div>
+<!--                <div class="span10 section-title-line "></div>-->
             </div>
         </div>
         
-        
+<!--Rooms Content-->
         <div class="container">
             
->>>>>>> f191ebf5e562745351e08916397a974603f44f56
             <!-- Example row of columns -->
             <div class="row">
                 <div class="span4">
