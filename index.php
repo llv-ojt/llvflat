@@ -41,7 +41,11 @@
         <link rel="apple-touch-icon-precomposed" href="web/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png">
         <link rel="shortcut icon" href="web/bootstrap/assets/ico/favicon.png">
 
+        <link href="web/css/bootstrap-custom.css" rel="stylesheet">
         <link href="web/css/header.css" rel="stylesheet">
+        <link href="web/css/llv-styles.css" rel="stylesheet">
+        <link href="web/css/styles.css" rel="stylesheet">
+        <link href="web/css/testimonials.css" rel="stylesheet">
     </head>
 
     <body>
@@ -58,8 +62,8 @@
                     </button>
                     <!-- Logo's here -->
                     <a class="brand col-lg-4" href="#">
-                        <!-- Desktop logo --> <img src="web/images/logo.png" class="img-responsive desktop-logo visible-desktop">
-                        <!-- Mobile logo  --> <img src="web/images/logo.png" class="img-responsive mobile-logo visible-phone visible-tablet">
+                        <!-- Desktop logo --> <img src="web/images/logo.png" class="img-responsive desktop-logo">
+                        <!-- Mobile logo  --> <img src="web/images/logo.png" class="img-responsive mobile-logo">
                     </a>
                     <div class="nav-collapse collapse col-lg-6 main-navigation">
                         <ul class="nav">
@@ -92,7 +96,7 @@
         <div class="container">
 
             <!-- Main hero unit for a primary marketing message or call to action -->
-            <div class="hero-unit heading-hero">
+            <div class="hero-unit heading-hero ">
                 <!-- Sample button
                     <a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a> -->
                 <div class="pull-right heading-promotions span5 container-fluid text-center visible-desktop">
@@ -107,20 +111,17 @@
                                 <td valign="top" align="right">Email</td>
                                 <td valign="middle" align="center"><input type="text" class="input-xlarge" style="font-size: 100%;" placeholder="Email"></td>
                             </tr>
+                            <tr><td colspan="2" align="center">
+                                    <input type="submit" class="btn btn-primary" value="Email it to me">
+                                </td></tr>
                         </table>
                     </form>
                 </div>
                 <br><br><br><br><br><br><br>
                 <div class="heading-hero-caption">
                     The "Best Kept Secret" in the Philippines
-                    <a href="#" class="btn btn-primary btn-large pull-right">Book now</a>
+                    <a href="#" class="btn btn-primary btn-large btn-achtung pull-right">Book now</a>
                 </div>
-            </div>
-        </div>
-        <!-- Heading hero ends here -->
-
-        <!-- Promotion => Mobile and Table version -->
-        <div class="container">
             <div class="heading-promotions-mini text-center visible-mobile visible-tablet visible-phone">
                 <div><h3>Get our latest promotions</h3></div>
                 <form action="" method="post">
@@ -140,8 +141,20 @@
                 </form>
             </div>
         </div>
-
+        
+            
         <div class="container">
+            <div class="row section-header">
+                <div class="span3 section-title" valign="middle">
+                    Rooms
+                </div>
+                <div class="span9 section-title-line"></div>
+            </div>
+        </div>
+        
+        
+        <div class="container">
+            
             <!-- Example row of columns -->
             <div class="row">
                 <div class="span4">
@@ -189,8 +202,9 @@
 
         <!-- OJT custom scripts -->
         <script src="web/js/nav-scroll.js"></script>
+
 =======
-        <!-- Fine, it's working -->
 >>>>>>> THEIRS
+        <!-- Fine, it's working -->
     </body>
 </html>

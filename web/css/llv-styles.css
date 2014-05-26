@@ -8,3 +8,17 @@ and open the template in the editor.
     Author     : OJT
 */
 
+.section-header {
+    
+}
+.section-title {
+    color: #ff7f00;
+    font-size: 180%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.section-title-line {
+    background: url(../images/line-ff7f00.png) no-repeat left center / cover;
+    content: none;
+}
