@@ -114,14 +114,14 @@
                             </tr>
                             <tr>
                                 <td colspan="2" align="center">
-                                    <input type="submit" class="btn btn-primary" value="Email it to me">
+                                    <input type="submit" class="btn btn-primary btn-large" value="Email it to me">
                                 </td>
                             </tr>
                         </table>
                     </form>
                 </div>
-                <br><br><br><br><br><br><br>
-                <div class="heading-hero-caption" id="caption">
+                <br><br><br><br><br><br><br><br>
+                <div class="heading-hero-caption">
                     <span class="">The "Best Kept Secret" in the Philippines</span>
                     <a href="#" class="btn btn-primary btn-large btn-achtung offset3">Book now</a>
                 </div>
@@ -156,6 +156,7 @@
 <!--                    <img src="web/images/Agoda%20logo.jpg" class="visible-desktop desktop-logo span1">-->
                     <br>
                     <p>Minim incurreret instituendarum an proident minim laborum. Aut aut quorum dolor fugiat, eiusmod multos quo iudicem philosophari. Quem quamquam te despicationes non dolor appellat ab tempor. Vidisse dolor sint qui fugiat nam fabulas iis fugiat ingeniis. Eram vidisse excepteur, iis fore admodum doctrina.</p>
+                    <p class="text-right"><i>- Author, Author</i></p>
                     <div class="gray-background padding-5b10 white-color text-right"><a class="white-color font-size" href="#">Read more</a></div>
                 </div>
             </div>
