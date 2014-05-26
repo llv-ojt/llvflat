@@ -28,7 +28,8 @@
         </style>
         <link href="web/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
         <link href="web/bootstrap/assets/css/bootstrap-columnar.css" rel="stylesheet">
-
+        <link href="web/css/llv-styles.css" rel="stylesheet">
+        
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
           <script src="web/bootstrap/assets/js/html5shiv.js"></script>
@@ -107,6 +108,9 @@
                                 <td valign="top" align="right">Email</td>
                                 <td valign="middle" align="center"><input type="text" class="input-xlarge" style="font-size: 100%;" placeholder="Email"></td>
                             </tr>
+                            <tr>
+                                <td valign="middle" align="center"><input type="button" value=""></td>
+                            </tr>
                         </table>
                     </form>
                 </div>
@@ -140,8 +144,12 @@
                 </form>
             </div>
         </div>
-
+        
+        
         <div class="container">
+            <div class="page-header orange-color">
+                <h1>Rooms</h1>
+            </div>
             <!-- Example row of columns -->
             <div class="row">
                 <div class="span4">
