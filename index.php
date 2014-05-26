@@ -112,61 +112,68 @@
                                 <td valign="top" align="right">Email</td>
                                 <td valign="middle" align="center"><input type="text" class="input-xlarge" style="font-size: 100%;" placeholder="Email"></td>
                             </tr>
-<<<<<<< HEAD
                             <tr>
                                 <td colspan="2" align="center">
                                     <input type="submit" class="btn btn-primary" value="Email it to me">
                                 </td>
                             </tr>
-=======
-                            <tr><td colspan="2" align="center">
-                                    <input type="submit" class="btn btn-primary" value="Email it to me">
-                                </td></tr>
->>>>>>> 6c20103f5adffe4257ff10976a08941696873ae7
                         </table>
                     </form>
                 </div>
                 <br><br><br><br><br><br><br>
-                <div class="heading-hero-caption">
-                    The "Best Kept Secret" in the Philippines
-                    <a href="#" class="btn btn-primary btn-large btn-achtung pull-right">Book now</a>
+                <div class="heading-hero-caption" id="caption">
+                    <span class="">The "Best Kept Secret" in the Philippines</span>
+                    <a href="#" class="btn btn-primary btn-large btn-achtung offset3">Book now</a>
                 </div>
-            <div class="heading-promotions-mini text-center visible-mobile visible-tablet visible-phone">
-                <div><h3>Get our latest promotions</h3></div>
-                <form action="" method="post">
-                    <table class="" width="100%" cellspacing="0">
-                        <tr>
-                            <td valign="middle" align="center"><input type="text" class="input-xlarge" style="font-size: 100%;" placeholder="Enter name here"></td>
-                        </tr>
-                        <tr>
-                            <td valign="middle" align="center"><input type="text" class="input-xlarge" style="font-size: 100%;" placeholder="Email"></td>
-                        </tr>
-                        <tr>
-                            <td align="center">
-                                <input type="submit" class="btn btn-primary center-block" value="Email it to me!">
-                            </td>
-                        </tr>
-                    </table>
-                </form>
-            </div>
-        </div>
-<<<<<<< HEAD
-
-<!-- Rooms Header            -->
-=======
             
->>>>>>> 6c20103f5adffe4257ff10976a08941696873ae7
-        <div class="container">
-            <div class="row section-header">
-                <div class=" page-header span12" valign="middle">
-                    <h1>Rooms</h1>
+                <div class="heading-promotions-mini text-center visible-mobile visible-tablet visible-phone">
+                    <div><h3>Get our latest promotions</h3></div>
+                    <form action="" method="post">
+                        <table class="" width="100%" cellspacing="0">
+                            <tr>
+                                <td valign="middle" align="center"><input type="text" class="input-xlarge" style="font-size: 100%;" placeholder="Enter name here"></td>
+                            </tr>
+                            <tr>
+                                <td valign="middle" align="center"><input type="text" class="input-xlarge" style="font-size: 100%;" placeholder="Email"></td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <input type="submit" class="btn btn-primary center-block" value="Email it to me!">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
                 </div>
-<!--                <div class="span10 section-title-line "></div>-->
+            </div>
+            
+        </div>
+
+<!-- Testimonials            -->
+        <div class="container">
+            <div class="row">
+                <div class="span4">
+                    <img src="web/images/TripAdvisor-logo.png" class="visible-desktop desktop-logo" width="175">
+<!--                    <img src="web/images/Agoda%20logo.jpg" class="visible-desktop desktop-logo span1">-->
+                    <br>
+                    <p>Minim incurreret instituendarum an proident minim laborum. Aut aut quorum dolor fugiat, eiusmod multos quo iudicem philosophari. Quem quamquam te despicationes non dolor appellat ab tempor. Vidisse dolor sint qui fugiat nam fabulas iis fugiat ingeniis. Eram vidisse excepteur, iis fore admodum doctrina.</p>
+                    <div class="gray-background padding-5b10 white-color text-right"><a class="white-color font-size" href="#">Read more</a></div>
+                </div>
             </div>
         </div>
         
+        
+        <br><br><br>
+        
 <!--Rooms Content-->
         <div class="container">
+            
+            <!-- Rooms Header            -->
+            <div class="row section-header">
+                <div class=" page-header span12" valign="middle">
+                    <h1 class="orange-color">Rooms</h1>
+                </div>
+                <!--                <div class="span10 section-title-line "></div>-->
+            </div>
             
             <!-- Example row of columns -->
             <div class="row">
@@ -189,7 +196,7 @@
 
             <hr>
 
-            <footer>
+            <footer class="text-center">
                 <p>&copy; Company 2013</p>
             </footer>
 

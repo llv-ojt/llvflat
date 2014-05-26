@@ -8,17 +8,26 @@ and open the template in the editor.
     Author     : OJT
 */
 
-<<<<<<< HEAD
-=======
-.orange-color
-{
+.orange-color {
     color: #f77f00;
 }
->>>>>>> 6c20103f5adffe4257ff10976a08941696873ae7
+
+.white-color {
+    color: #fff;
+}
+
+.gray-background {
+    background-color: #a5a5a5;
+}
+
+.padding-5b10 {
+    padding: 5px 15px;
+}
 
 .section-header {
     
 }
+
 .section-title {
     color: #ff7f00;
     font-size: 180%;
