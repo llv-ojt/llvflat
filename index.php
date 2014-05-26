@@ -29,7 +29,7 @@
         <link href="web/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
         <link href="web/bootstrap/assets/css/bootstrap-columnar.css" rel="stylesheet">
         <link href="web/css/llv-styles.css" rel="stylesheet">
-        
+
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
           <script src="web/bootstrap/assets/js/html5shiv.js"></script>
@@ -125,49 +125,57 @@
                     <span class="">The "Best Kept Secret" in the Philippines</span>
                     <a href="#" class="btn btn-primary btn-large btn-achtung offset3">Book now</a>
                 </div>
-            
-                <div class="heading-promotions-mini text-center visible-mobile visible-tablet visible-phone">
-                    <div><h3>Get our latest promotions</h3></div>
-                    <form action="" method="post">
-                        <table class="" width="100%" cellspacing="0">
-                            <tr>
-                                <td valign="middle" align="center"><input type="text" class="input-xlarge" style="font-size: 100%;" placeholder="Enter name here"></td>
-                            </tr>
-                            <tr>
-                                <td valign="middle" align="center"><input type="text" class="input-xlarge" style="font-size: 100%;" placeholder="Email"></td>
-                            </tr>
-                            <tr>
-                                <td align="center">
-                                    <input type="submit" class="btn btn-primary center-block" value="Email it to me!">
-                                </td>
-                            </tr>
-                        </table>
-                    </form>
-                </div>
             </div>
-            
+
         </div>
 
-<!-- Testimonials            -->
-        <div class="container">
+        <div class="heading-promotions-mini text-center visible-mobile visible-tablet visible-phone">
+            <div><h3>Get our latest promotion</h3></div>
+            <form action="" method="post">
+                <table class="" width="100%" cellspacing="0">
+                    <tr>
+                        <td valign="middle" align="center"><input type="text" class="input-xlarge" style="font-size: 100%;" placeholder="Enter name here"></td>
+                    </tr>
+                    <tr>
+                        <td valign="middle" align="center"><input type="text" class="input-xlarge" style="font-size: 100%;" placeholder="Email"></td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <input type="submit" class="btn btn-primary center-block" value="Email it to me!">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+        <!-- Testimonials            -->
+        <div class="container ">
             <div class="row">
-                <div class="span4">
-                    <img src="web/images/TripAdvisor-logo.png" class="visible-desktop desktop-logo" width="175">
-<!--                    <img src="web/images/Agoda%20logo.jpg" class="visible-desktop desktop-logo span1">-->
-                    <br>
-                    <p>Minim incurreret instituendarum an proident minim laborum. Aut aut quorum dolor fugiat, eiusmod multos quo iudicem philosophari. Quem quamquam te despicationes non dolor appellat ab tempor. Vidisse dolor sint qui fugiat nam fabulas iis fugiat ingeniis. Eram vidisse excepteur, iis fore admodum doctrina.</p>
-                    <p class="text-right"><i>- Author, Author</i></p>
-                    <div class="gray-background padding-5b10 white-color text-right"><a class="white-color font-size" href="#">Read more</a></div>
+                <div class="span4 testimonial">
+                    <!-- Testimonial header -->
+                    <div class="row-fluid testimonial-header">
+                        <div class="col-lg-5 testimonial-header-provider">PROVIDER</div>
+                        <div class="col-lg-5 testimonial-header-rating">RATING</div>
+                    </div>
+                    <!-- Testimonial body -->
+                    <div class="row-fluid testimonial-body">
+                        <div class="row-fluid testimonial-body-message">Minim incurreret instituendarum an proident minim laborum. Aut aut quorum dolor fugiat, eiusmod multos quo iudicem philosophari. Quem quamquam te despicationes non dolor appellat ab tempor. Vidisse dolor sint qui fugiat nam fabulas iis fugiat ingeniis. Eram vidisse excepteur, iis fore admodum doctrina.</div>
+                        <div class="row-fluid testimonial-body-author">Author</div>
+                    </div>
+                    <!-- Testimonial header -->
+                    <div class="row-fluid testimonial-footer">
+                        <a href="javascript:;">Read more</a>
+                    </div>
                 </div>
             </div>
         </div>
-        
-        
+
+
         <br><br><br>
-        
-<!--Rooms Content-->
+
+        <!--Rooms Content-->
         <div class="container">
-            
+
             <!-- Rooms Header            -->
             <div class="row section-header">
                 <div class=" page-header span12" valign="middle">
@@ -175,7 +183,7 @@
                 </div>
                 <!--                <div class="span10 section-title-line "></div>-->
             </div>
-            
+
             <!-- Example row of columns -->
             <div class="row">
                 <div class="span4">
@@ -219,7 +227,7 @@
         <script src="web/bootstrap/assets/js/bootstrap-collapse.js"></script>
         <script src="web/bootstrap/assets/js/bootstrap-carousel.js"></script>
         <script src="web/bootstrap/assets/js/bootstrap-typeahead.js"></script>
-        
+
         <!-- OJT custom scripts -->
         <script src="web/js/nav-scroll.js"></script>
 
